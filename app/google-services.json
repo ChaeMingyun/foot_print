@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "717200812660",
+    "firebase_url": "https://footprint-7f978.firebaseio.com",
+    "project_id": "footprint-7f978",
+    "storage_bucket": "footprint-7f978.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717200812660:android:26fa9ffda6575036",
+        "android_client_info": {
+          "package_name": "landvive.footprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717200812660-g110vu0455kjilq0e681ffbnji7sfhbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAgW83Kzhe93crJfMeo7sAbJ1D1VeoZLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
