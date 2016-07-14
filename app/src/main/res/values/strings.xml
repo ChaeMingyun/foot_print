@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FootPrint</string>
+    <string name="accessToken">pk.eyJ1Ijoic29uZ3dvbmdldW4iLCJhIjoiY2lxbTNqeXN2MDBpcGZvbm5ncDY1ZjhhMSJ9.bv8TwVUiQtc12EdNcAIufw</string>
 </resources>
