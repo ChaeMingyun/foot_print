@@ -61,7 +61,7 @@ public class MainActivity extends BaseActivity implements GoogleApiClient.OnConn
         // [START config_signin]
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken(null)
                 .requestEmail()
                 .build();
         // [END config_signin]
