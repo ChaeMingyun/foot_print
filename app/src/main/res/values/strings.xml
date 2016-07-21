@@ -50,4 +50,14 @@
     <string name="id_fmt">User ID: %s</string>
     <string name="email_fmt">Email: %s</string>
     <string name="accessToken">pk.eyJ1Ijoic29uZ3dvbmdldW4iLCJhIjoiY2lxbTNqeXN2MDBpcGZvbm5ncDY1ZjhhMSJ9.bv8TwVUiQtc12EdNcAIufw</string>
+
+    <string name="camera_button_text">Upload</string>
+    <string name="sign_in_prompt">Sign In to begin</string>
+    <string name="take_photo_prompt">Upload a Photo</string>
+    <string name="download">Download</string>
+    <string name="sign_in_anonymously">Sign In</string>
+    <string name="rationale_storage">This sample reads images from your camera to demonstrate uploading.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+
 </resources>
