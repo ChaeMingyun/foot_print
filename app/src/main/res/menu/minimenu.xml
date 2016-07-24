@@ -3,16 +3,16 @@
     <item
         android:id="@+id/myalbum"
         android:title="myalbum"
-        android:icon="@android:drawable/ic_input_get"/>
+        android:icon="@android:drawable/ic_input_get" />
 
     <item
         android:id="@+id/makealbum"
         android:title="makealbum"
-        android:icon="@android:drawable/ic_input_add"/>
+        android:icon="@android:drawable/ic_input_add" />
 
     <item
         android:id="@+id/logout"
         android:title="logout"
-        android:icon="@android:drawable/ic_partial_secure"/>
+        android:icon="@android:drawable/ic_partial_secure" />
 
 </menu>

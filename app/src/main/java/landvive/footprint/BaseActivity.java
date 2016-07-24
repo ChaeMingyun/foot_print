@@ -3,6 +3,8 @@ package landvive.footprint;
 import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 /**
  * Created by chaemingyun on 2016. 7. 12..
  */
@@ -31,4 +33,7 @@ public class BaseActivity extends AppCompatActivity {
         hideProgressDialog();
     }
 
+    public String getUid() {
+        return FirebaseAuth.getInstance().getCurrentUser().getUid();
+    }
 }

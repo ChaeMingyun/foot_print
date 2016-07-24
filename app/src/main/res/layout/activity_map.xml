@@ -13,8 +13,7 @@
         mapbox:center_latitude="41.885"
         mapbox:center_longitude="-87.679"
         mapbox:zoom="12"
-        mapbox:tilt="20"
-        />
+        mapbox:tilt="20" />
 
     <Button
         android:layout_width="60dp"

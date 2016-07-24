@@ -7,7 +7,7 @@
         -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS"/>
+    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -60,7 +60,7 @@
         <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
         <service
             android:name=".DownloadActivity"
-            android:exported="false"/>
+            android:exported="false" />
 
         <!--
           Android N SDK has new restrictions around sharing file:// URIs
@@ -75,6 +75,22 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
+
+        <!--FireBase RealTime DataBase manifest-->
+        <activity
+            android:name=".DBMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".NewPostActivity" />
+        <activity android:name=".SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PostDetailActivity"></activity>
     </application>
 
 

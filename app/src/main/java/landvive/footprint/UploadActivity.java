@@ -1,6 +1,5 @@
 package landvive.footprint;
 
-import android.*;
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -34,7 +33,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.UUID;
 
-import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
 
 /**
@@ -44,7 +42,7 @@ import pub.devrel.easypermissions.EasyPermissions;
 public class UploadActivity extends AppCompatActivity implements
         View.OnClickListener, EasyPermissions.PermissionCallbacks {
 
-    private static final String TAG = "Storage#MainActivity";
+    private static final String TAG = "Storage#DBMainActivity";
 
     private static final int RC_TAKE_PICTURE = 101;
     private static final int RC_STORAGE_PERMS = 102;
@@ -141,7 +139,7 @@ public class UploadActivity extends AppCompatActivity implements
     }
 
 
-//    @AfterPermissionGranted(RC_STORAGE_PERMS)
+    //    @AfterPermissionGranted(RC_STORAGE_PERMS)
     public void getPictureFromGallery() throws FileNotFoundException {
     /*
     //This allows to select the application to use when selecting an image.
@@ -249,7 +247,7 @@ public class UploadActivity extends AppCompatActivity implements
     // [END upload_from_uri]
 
 
-//    @AfterPermissionGranted(RC_STORAGE_PERMS)
+    //    @AfterPermissionGranted(RC_STORAGE_PERMS)
     private void launchCamera() {
         Log.d(TAG, "launchCamera");
 

@@ -2,7 +2,6 @@ package landvive.footprint;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.PopupMenu;
 import android.view.MenuItem;
@@ -12,13 +11,10 @@ import android.widget.Toast;
 
 import com.mapbox.mapboxsdk.MapboxAccountManager;
 import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
-
-import landvive.footprint.R;
 
 public class MapActivity extends Activity {
-    private  MapView mapView;
+    private MapView mapView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,9 +28,9 @@ public class MapActivity extends Activity {
 
         Button btn_plus = (Button) findViewById(R.id.btn_plus);
 
-        btn_plus.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                PopupMenu popup= new PopupMenu(MapActivity.this, v);
+        btn_plus.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                PopupMenu popup = new PopupMenu(MapActivity.this, v);
                 getMenuInflater().inflate(R.menu.minimenu, popup.getMenu());
                 popup.setOnMenuItemClickListener(listener);
                 popup.show();
@@ -42,7 +38,7 @@ public class MapActivity extends Activity {
         });
     }
 
-    PopupMenu.OnMenuItemClickListener listener= new PopupMenu.OnMenuItemClickListener() {
+    PopupMenu.OnMenuItemClickListener listener = new PopupMenu.OnMenuItemClickListener() {
 
         @Override
         public boolean onMenuItemClick(MenuItem item) {
